@@ -8,5 +8,8 @@ namespace Model.Lookups
 {
     public class BuilderLookup
     {
+        public int BuilderID { get; set; }
+        public string FirstName { get; set; }
+
     }
 }
