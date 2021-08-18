@@ -24,30 +24,36 @@ namespace CanoeBuilders
         public MainWindow()
         {
             InitializeComponent();
-            GetConnectionStrings();
+
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("I was just loaded");
-
+            FillTypes();
         }
 
-       
-        static void GetConnectionStrings()
+        private void FillTypes()
         {
-            ConnectionStringSettingsCollection settings =
-           ConfigurationManager.ConnectionStrings;
+            Dictionary<string, int> canoeTypes = new Dictionary<string, int>(){
+                { "Aluminum", 1},
+                { "Fiberglass", 2},
+                { "Cedar-Strip", 3},
+            };
 
-            if (settings != null)
-            {
-                foreach (ConnectionStringSettings cs in settings)
-                {
-                    MessageBox.Show(cs.Name);
-                    MessageBox.Show(cs.ProviderName);
-                    MessageBox.Show(cs.ConnectionString);
-                }
-            }
+            cboType.ItemsSource = canoeTypes;
+            cboType.DisplayMemberPath = "Key";
+            cboType.SelectedValuePath = "Value";
+
+            cboType.SelectedIndex = 0;
+        }
+
+
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(cboType.SelectedValue.ToString());
+
         }
     }
 }

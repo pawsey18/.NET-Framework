@@ -44,23 +44,45 @@ namespace DAL
         // We have a DataSet -> [ Inside is the [Collection of tables, relationships, constraints] ] - it's going to have a collection of data objects: DataRelation, ExtendedProperties and DataTableCollection.
         // A Dataset has 0 or more tables that are represented by DataTable objects. 
 
-        // DataTable objects get used to represent the tables in DS. DataTables represents 1 table in memory relational data. This data is then  local on .net apps where it lives.
+        // DataTable objects get used to represent the tables in Datasets. DataTables represents 1 table in memory relational data. This data is then  local on .net apps where it lives.
         
         // It lives in memory, but the data can be populated with the help of DataAdapter.
 
 
-        // This method is for retrieving 
         public DataTable Execute(string cmdText, CommandType cmdType, List<ParmStruct> parms = null)
         {
             SqlCommand cmd = CreateCommand(cmdText, cmdType, parms);
+            DataTable dt = new DataTable();
+            // Like here for example.
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
 
-            // Now we open the connection
-            using (cmd.using0{
-
-            })
+            da.Fill(dt);
+            return dt;
         }
 
+        public int ExecuteNonQuery(string cmdText, CommandType cmdType, List<ParmStruct> parms = null)
+        {
+            SqlCommand cmd = CreateCommand(cmdText, cmdType, parms);
 
+            using (cmd.Connection)
+            {
+                cmd.Connection.Open();
+                return cmd.ExecuteNonQuery();
+            }
+        }
 
+        public object ExecuteScaler(string sql, CommandType cmdType, List<ParmStruct> parms = null)
+        {
+            SqlCommand cmd = CreateCommand(sql, cmdType, parms);
+            object retVal;
+
+            using (cmd.Connection)
+            {
+                cmd.Connection.Open();
+                retVal = cmd.ExecuteScalar();
+            }
+
+            return retVal;
+        }
     }
 }
