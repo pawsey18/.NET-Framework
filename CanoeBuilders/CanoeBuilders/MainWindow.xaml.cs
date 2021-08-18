@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,12 +24,30 @@ namespace CanoeBuilders
         public MainWindow()
         {
             InitializeComponent();
+            GetConnectionStrings();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("I was just loaded");
 
+        }
+
+       
+        static void GetConnectionStrings()
+        {
+            ConnectionStringSettingsCollection settings =
+           ConfigurationManager.ConnectionStrings;
+
+            if (settings != null)
+            {
+                foreach (ConnectionStringSettings cs in settings)
+                {
+                    MessageBox.Show(cs.Name);
+                    MessageBox.Show(cs.ProviderName);
+                    MessageBox.Show(cs.ConnectionString);
+                }
+            }
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pawse\\Documents\\NTIERWPF\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj": {}
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pawse\\Documents\\NTIERWPF\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj": {
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawse\\Documents\\NTIERWPF\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj",
+        "projectUniqueName": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj",
         "projectName": "CanoeBuilders",
-        "projectPath": "C:\\Users\\pawse\\Documents\\NTIERWPF\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj",
+        "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj",
         "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawse\\Documents\\NTIERWPF\\CanoeBuilders\\CanoeBuilders\\obj\\",
+        "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
