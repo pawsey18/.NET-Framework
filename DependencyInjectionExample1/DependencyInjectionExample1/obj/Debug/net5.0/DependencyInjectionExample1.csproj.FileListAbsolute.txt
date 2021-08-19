@@ -1,0 +1,16 @@
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\DependencyInjectionExample1.exe
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\DependencyInjectionExample1.deps.json
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\DependencyInjectionExample1.runtimeconfig.json
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\DependencyInjectionExample1.runtimeconfig.dev.json
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\DependencyInjectionExample1.dll
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\ref\DependencyInjectionExample1.dll
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\bin\Debug\net5.0\DependencyInjectionExample1.pdb
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.csproj.AssemblyReference.cache
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.AssemblyInfoInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.AssemblyInfo.cs
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.csproj.CoreCompileInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.dll
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\ref\DependencyInjectionExample1.dll
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.pdb
+C:\Users\pawse\Documents\.NET-Framework\DependencyInjectionExample1\DependencyInjectionExample1\obj\Debug\net5.0\DependencyInjectionExample1.genruntimeconfig.cache
