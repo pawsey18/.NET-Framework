@@ -6,12 +6,11 @@ namespace DependencyInjectionExample1
     {
         static void Main(string[] args)
         {
-            var user1 = new User("Robin");
+            var notificationService = new ConsoleNotification();
+            var user1 = new User("Robin", notificationService);
             user1.ChangeUsername("Locke");
 
             Console.ReadLine();
         }
-
-    
     }
 }

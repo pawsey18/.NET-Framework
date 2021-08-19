@@ -10,10 +10,11 @@ namespace DependencyInjectionExample1
     {
         private INotificationService _notificationService;
 
-        public User(string username)
+        public User(string username, INotificationService notificationService)
         {
             Username = username;
-            _notificationService = new ConsoleNotification();
+
+            _notificationService = notificationService;
         }
 
         public string Username { get; set; }
