@@ -4,6 +4,73 @@
     "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj": {}
   },
   "projects": {
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj"
+              },
+              "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +79,267 @@
         "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\CanoeBuilders.csproj",
         "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\CanoeBuilders\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\BLL\\BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Types\\Types.csproj": {
+                "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Types\\Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pawse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Types\\Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Types\\Types.csproj",
+        "projectName": "Types",
+        "projectPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Types\\Types.csproj",
+        "packagesPath": "C:\\Users\\pawse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawse\\Documents\\.NET-Framework\\CanoeBuilders\\Types\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,4 +1,5 @@
 using Model.Lookups;
+using Repository;
 using System;
 using System.Collections.Generic;
 
@@ -8,7 +9,8 @@ namespace BLL
     {
         public List<BuilderLookup> GetTheBuilders()
         {
-            return new List<BuilderLookup>();
+            ListsRepo repo = new ListsRepo();
+            return repo.RetrieveBuilderList();
         }
     }
 }

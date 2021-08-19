@@ -16,10 +16,9 @@
         </Grid.ColumnDefinitions>
         <Label Content="Builder" HorizontalAlignment="Left" Margin="2,111,0,0" VerticalAlignment="Top" Width="59" Height="29" Grid.Column="3"/>
         <Label Content="QTY" HorizontalAlignment="Left" Margin="2,154,0,0" VerticalAlignment="Top" Width="41" Height="29" Grid.Column="3"/>
-        <ComboBox HorizontalAlignment="Left" Margin="112,108,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2" Grid.Column="3"/>
+        <ComboBox x:Name="cboBuilders" HorizontalAlignment="Left" Margin="112,108,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2" Grid.Column="3"/>
         <Label Content="Type" HorizontalAlignment="Left" Margin="2,198,0,0" VerticalAlignment="Top" Width="41" Height="29" Grid.Column="3"/>
-        <ComboBox x:Name="cboType" HorizontalAlignment="Left" Margin="112,198,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2" SelectedValue="{Binding Path= FillTypes}"  SelectedValuePath="Key" 
-DisplayMemberPath="Value"  Grid.Column="3"/>
+        <ComboBox x:Name="cboType" HorizontalAlignment="Left" Margin="112,198,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2"  Grid.Column="3"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="2,272,0,0" VerticalAlignment="Top" Width="41" Height="29" Grid.Column="3"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="112,284,0,0" VerticalAlignment="Top" Width="77" Height="17" Grid.Column="3"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="112,314,0,0" VerticalAlignment="Top" Width="231" Height="34" Grid.ColumnSpan="2" Grid.Column="3" Click="Button_Click"/>

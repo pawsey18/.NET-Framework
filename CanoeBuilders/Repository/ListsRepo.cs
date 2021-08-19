@@ -14,11 +14,11 @@ namespace Repository
             DataAcess da = new DataAcess();
             DataTable dt = da.Execute(sql, CommandType.Text);
 
-            List<BuilderLookup> theBuilders = new List<BuilderLookup>();
+            List<BuilderLookup> listBuilders = new List<BuilderLookup>();
 
             foreach (DataRow row in dt.Rows)
             {
-                theBuilders.Add(
+                listBuilders.Add(
                        new BuilderLookup()
                        {
                            BuilderID = Convert.ToInt32(row["BuilderID"].ToString()),
@@ -26,8 +26,7 @@ namespace Repository
                        }
                     );
             }
-            return theBuilders;
+            return listBuilders;
         }
-
     }
 }

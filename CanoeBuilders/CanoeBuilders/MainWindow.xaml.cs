@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using Model.Lookups;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -30,6 +32,7 @@ namespace CanoeBuilders
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             FillTypes();
+            LoadBuilders();
         }
 
         private void FillTypes()
@@ -43,17 +46,25 @@ namespace CanoeBuilders
             cboType.ItemsSource = canoeTypes;
             cboType.DisplayMemberPath = "Key";
             cboType.SelectedValuePath = "Value";
-
-            cboType.SelectedIndex = 0;
         }
 
+        private void LoadBuilders()
+        {
+            ListsBL listsBL = new ListsBL();
+            var l = listsBL.GetTheBuilders();
+
+            l.Insert(0, new BuilderLookup { BuilderID = 0, FirstName = "" });
+            cboBuilders.ItemsSource = l;
+            cboBuilders.DisplayMemberPath = "FirstName";
+            cboBuilders.SelectedValuePath = "BuilderID";
+            cboBuilders.SelectedItem = -1;
+        }
 
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(cboType.SelectedValue.ToString());
-
+            MessageBox.Show(cboBuilders.SelectedValue.ToString());
         }
     }
 }

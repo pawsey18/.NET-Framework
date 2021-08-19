@@ -1,0 +1,15 @@
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\bin\Debug\net5.0-windows\DAL.deps.json
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\bin\Debug\net5.0-windows\DAL.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\bin\Debug\net5.0-windows\ref\DAL.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\bin\Debug\net5.0-windows\DAL.pdb
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\bin\Debug\net5.0-windows\Types.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\bin\Debug\net5.0-windows\Types.pdb
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.csproj.AssemblyReference.cache
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.AssemblyInfoInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.AssemblyInfo.cs
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.csproj.CoreCompileInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.csproj.CopyComplete
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\ref\DAL.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\DAL\obj\Debug\net5.0-windows\DAL.pdb

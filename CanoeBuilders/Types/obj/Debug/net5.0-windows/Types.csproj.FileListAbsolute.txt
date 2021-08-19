@@ -1,0 +1,12 @@
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\bin\Debug\net5.0-windows\Types.deps.json
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\bin\Debug\net5.0-windows\Types.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\bin\Debug\net5.0-windows\ref\Types.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\bin\Debug\net5.0-windows\Types.pdb
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.csproj.AssemblyReference.cache
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.AssemblyInfoInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.AssemblyInfo.cs
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.csproj.CoreCompileInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\ref\Types.dll
+C:\Users\pawse\Documents\.NET-Framework\CanoeBuilders\Types\obj\Debug\net5.0-windows\Types.pdb
