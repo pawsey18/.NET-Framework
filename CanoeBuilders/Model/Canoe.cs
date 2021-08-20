@@ -15,7 +15,7 @@ namespace Model
         [Required]
         public DateTime Date { get; set; }
         [Required]
-        public bool MyProperty { get; set; }
+        public bool Archived { get; set; }
         [Required]
         public int CanoeType { get; set; }
     }

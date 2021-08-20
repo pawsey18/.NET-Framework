@@ -29,6 +29,8 @@ namespace CanoeBuilders
 
         }
 
+
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             FillTypes();
@@ -59,6 +61,8 @@ namespace CanoeBuilders
             cboBuilders.SelectedValuePath = "BuilderID";
             cboBuilders.SelectedItem = -1;
         }
+
+
 
 
 

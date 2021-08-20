@@ -11,7 +11,7 @@ namespace Types
     public SqlDbType DataType;
     public ParameterDirection Direction;
 
-        public ParmStruct(string name, object value, SqlDbType dataType, ParameterDirection direction, int size = 0)
+        public ParmStruct(string name, object value, SqlDbType dataType, ParameterDirection direction = ParameterDirection.Input, int size = 0)
         {
             Name = name;
             Value = value;

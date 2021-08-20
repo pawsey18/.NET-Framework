@@ -1,4 +1,5 @@
 ﻿using Model;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,17 @@ namespace BLL
 
         public bool AddCanoe(Canoe canoe)
         {
-          
+            _canoe = canoe;
+            CanoeRepo repository = new CanoeRepo();
+            Validate();
+            if (Errors.Count == 0)
+            {
+                return repository.Insert(canoe);
+            }
             return false;
         }
-        // actually 3
-        private bool BuilderHasFourCanoeTypes()
+ 
+        private bool BuilderHasMadeFourCanoeOfSameTypeDuringLastSevenDays()
         {
             return true;
         }
