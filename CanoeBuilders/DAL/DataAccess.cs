@@ -7,7 +7,7 @@ using Types;
 
 namespace DAL
 {
-    public class DataAcess
+    public class DataAccess
     {
         // SqlCommand: a Class that is represented as a sql statement or sproc
 
