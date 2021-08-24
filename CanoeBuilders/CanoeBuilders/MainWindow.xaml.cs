@@ -28,27 +28,27 @@ namespace CanoeBuilders
         {
             FillTypes();
             LoadBuilders();
-            chkArchived.DataContext = this;
-            this.DataContext = this;
+           // chkArchived.DataContext = this;
+           // this.DataContext = this;
 
         }
 
         private void FillTypes()
         {
-            //Dictionary<string, int> canoeTypes = new Dictionary<string, int>(){
-            //    { "Aluminum", 1},
-            //    { "Fiberglass", 2},
-            //    { "Cedar-Strip", 3},
-            //};
+            Dictionary<string, int> canoeTypes = new Dictionary<string, int>(){
+                { "Aluminum", 1},
+                { "Fiberglass", 2},
+                { "Cedar-Strip", 3},
+            };
 
-            //cboType.ItemsSource = canoeTypes;
-            //cboType.DisplayMemberPath = "Key";
-            //cboType.SelectedValuePath = "Value";
-            cmbContent = new ObservableCollection<string>();
-            cmbContent.Add("Aluminum");
-            cmbContent.Add("Fiberglass");
-            cmbContent.Add("Cedar-Strip");
-            cboType.ItemsSource = cmbContent;
+            cboType.ItemsSource = canoeTypes;
+            cboType.DisplayMemberPath = "Key";
+            cboType.SelectedValuePath = "Value";
+            //cmbContent = new ObservableCollection<string>();
+            //cmbContent.Add("Aluminum");
+            //cmbContent.Add("Fiberglass");
+            //cmbContent.Add("Cedar-Strip");
+            //cboType.ItemsSource = cmbContent;
         }
 
         public ObservableCollection<string> cmbContent { get; set; }
@@ -75,7 +75,7 @@ namespace CanoeBuilders
                 QTY = Convert.ToInt32(txtQty.Text.ToString()),
                 Date = Convert.ToDateTime(dtpDateAdded.SelectedDate.ToString()),
                 Archived = Checked,
-                CanoeType = 1,
+                CanoeType = Convert.ToInt32(cboType.SelectedValue.ToString()),
             };
         }
         public bool Checked { get; set; }
@@ -133,32 +133,32 @@ namespace CanoeBuilders
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(cmbContent.ToString());
+            //MessageBox.Show(cboType.SelectedValue.ToString());
 
-            //string errMsg = ValidateForm();
+            string errMsg = ValidateForm();
 
-            //if (errMsg != string.Empty)
-            //{
-            //    MessageBox.Show(errMsg, "Missing Information", MessageBoxButton.OK, MessageBoxImage.Error);
-            //}
-            //else
-            //{
-            //    CanoeBL canoeBL = new CanoeBL();
+            if (errMsg != string.Empty)
+            {
+                MessageBox.Show(errMsg, "Missing Information", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                CanoeBL canoeBL = new CanoeBL();
 
-            //    if (canoeBL.AddCanoe(PopulateListingObject()))
-            //    {
-            //        MessageBox.Show("Insert successfully");
-            //        ResetForm();
-            //    }
-            //    else
-            //    {
-            //        foreach (BLL.ValidationError error in canoeBL.Errors)
-            //        {
-            //            errMsg += error.Description + Environment.NewLine;
-            //        }
-            //        MessageBox.Show(errMsg);
-            //    }
-            //}
+                if (canoeBL.AddCanoe(PopulateListingObject()))
+                {
+                    MessageBox.Show("Insert successfully");
+                    ResetForm();
+                }
+                else
+                {
+                    foreach (BLL.ValidationError error in canoeBL.Errors)
+                    {
+                        errMsg += error.Description + Environment.NewLine;
+                    }
+                    MessageBox.Show(errMsg);
+                }
+            }
         }
 
         private void ResetForm()

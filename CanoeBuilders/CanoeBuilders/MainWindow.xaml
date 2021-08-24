@@ -18,7 +18,8 @@
         <Label Content="QTY" HorizontalAlignment="Left" Margin="2,154,0,0" VerticalAlignment="Top" Width="41" Height="29" Grid.Column="3"/>
         <ComboBox x:Name="cboBuilders" HorizontalAlignment="Left" Margin="112,108,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2" Grid.Column="3"/>
         <Label Content="Type" HorizontalAlignment="Left" Margin="2,198,0,0" VerticalAlignment="Top" Width="41" Height="29" Grid.Column="3"/>
-        <ComboBox Name="cboType" HorizontalAlignment="Left" Margin="112,198,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2"  Grid.Column="3" ItemsSource="{Binding Path=cmbContent}"/>
+        <ComboBox Name="cboType" HorizontalAlignment="Left" Margin="112,198,0,0" VerticalAlignment="Top" Width="231" Height="24" Grid.ColumnSpan="2"  Grid.Column="3" 
+                  ItemsSource="{Binding canoeTypes }"   DisplayMemberPath="Value" SelectedValuePath="Key"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="2,272,0,0" VerticalAlignment="Top" Width="41" Height="29" Grid.Column="3" />
         <CheckBox x:Name="chkArchived" Content="CheckBox" HorizontalAlignment="Left" Margin="112,284,0,0" VerticalAlignment="Top" Width="77" Height="17" Grid.Column="3"  IsChecked="{Binding Checked}"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="112,314,0,0" VerticalAlignment="Top" Width="231" Height="34" Grid.ColumnSpan="2" Grid.Column="3" Click="Button_Click"/>
