@@ -26,14 +26,14 @@ namespace Repository
             DataAccess db = new DataAccess();
             return db.ExecuteNonQuery("CanoeBuilders", CommandType.StoredProcedure, parms) > 0;
         }
-
+        //  and DateAdded < dateadd(week,-1,getdate()) 
         public bool MaxFourCanoesOfSameTypeDuringWeek(int builderId, int canoeType)
         {
             List<ParmStruct> parms = new List<ParmStruct>();
             parms.Add(new ParmStruct("@BuilderID", builderId, SqlDbType.Int));
             parms.Add(new ParmStruct("@CanoeType", canoeType, SqlDbType.Int));
             string sql = "SELECT COUNT(CanoeType), BuilderId from Canoe where BuilderId = @BuilderID" +
-                " AND CanoeType = @CanoeType GROUP BY BuilderID HAVING COUNT(*) >= 4 WHERE DateAdded < dateadd(week,-1,getdate()) ";
+                " AND CanoeType = @CanoeType GROUP BY BuilderID HAVING COUNT(*) >= 4";
             DataAccess db = new DataAccess();
             return Convert.ToInt32(db.ExecuteScaler(sql, CommandType.Text, parms)) > 0;
         }

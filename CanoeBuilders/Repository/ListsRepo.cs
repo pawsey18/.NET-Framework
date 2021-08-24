@@ -11,7 +11,7 @@ namespace Repository
         public List<BuilderLookup> RetrieveBuilderList()
         {
             string sql = "select * from Builder";
-            DataAcess da = new DataAcess();
+            DataAccess da = new DataAccess();
             DataTable dt = da.Execute(sql, CommandType.Text);
 
             List<BuilderLookup> listBuilders = new List<BuilderLookup>();
