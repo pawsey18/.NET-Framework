@@ -1,0 +1,16 @@
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.csproj.AssemblyReference.cache
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\MainWindow.g.cs
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\App.g.cs
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings_MarkupCompile.cache
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings_MarkupCompile.lref
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\bin\Debug\AppAndSettings.exe.config
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\bin\Debug\AppAndSettings.exe
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\bin\Debug\AppAndSettings.pdb
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\MainWindow.baml
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.g.resources
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.Properties.Resources.resources
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.csproj.GenerateResource.cache
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.csproj.CoreCompileInputs.cache
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.exe
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\AppAndSettings.pdb
+C:\Users\pawse\Documents\.NET-Framework\WPFBasics\AppAndSettings\AppAndSettings\obj\Debug\Window1.g.cs

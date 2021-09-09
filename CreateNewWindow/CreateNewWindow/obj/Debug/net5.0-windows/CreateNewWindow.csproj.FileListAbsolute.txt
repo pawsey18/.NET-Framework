@@ -1,0 +1,6 @@
+C:\Users\pawse\Documents\.NET-Framework\CreateNewWindow\CreateNewWindow\obj\Debug\net5.0-windows\CreateNewWindow.csproj.AssemblyReference.cache
+C:\Users\pawse\Documents\.NET-Framework\CreateNewWindow\CreateNewWindow\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\pawse\Documents\.NET-Framework\CreateNewWindow\CreateNewWindow\obj\Debug\net5.0-windows\NewWindow.g.cs
+C:\Users\pawse\Documents\.NET-Framework\CreateNewWindow\CreateNewWindow\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\pawse\Documents\.NET-Framework\CreateNewWindow\CreateNewWindow\obj\Debug\net5.0-windows\CreateNewWindow_MarkupCompile.cache
+C:\Users\pawse\Documents\.NET-Framework\CreateNewWindow\CreateNewWindow\obj\Debug\net5.0-windows\CreateNewWindow_MarkupCompile.lref
